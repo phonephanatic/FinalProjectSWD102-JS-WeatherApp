@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+  <div class="app-header">
+  </div>
+    <h1>Weather App</h1>
+    <div>
+      <label for="city">City:</label>
+      <input type="text" id="city">
+      <label for="state">State:</label>
+      <input type="text" id="state">
+      <label for="country">Country:</label>
+      <input type="text" id="country">
+      <button onclick="addCity()">Add City</button>
+    </div>
+    <table id="city-list">
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>State</th>
+          <th>Country</th>
+          <th>Temperature (F)</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <script src="weather.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
